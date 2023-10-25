@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,700;1,600&family=Prompt:wght@700&family=Quicksand:wght@300&family=Rubik:wght@600&family=Spline+Sans:wght@400;500;700&display=swap');
+.bodyNavBar{
+    background-color: #ddd;
+}
+.circle-and-name {
+    display: flex; 
+  }
+.a{
+    font-family: 'bai jamjuree';
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Abdeladim-ElOTHMANI{
+    font-family: 'bai jamjuree';
+    font-size: 25px;
+}
+.navbarLinks{
+    font-family: 'bai jamjuree';
+    font-size: 25px;
+    margin-left: 130px;
+}
+.navbarLinks .nav-link {
+    margin-right: 20px;
+  }
+.navbarLinks .nav-link:hover{
+    border-bottom: solid 1px black;
+}
+.contactez{
+    height: 50px;
+    width: 150px;
+}

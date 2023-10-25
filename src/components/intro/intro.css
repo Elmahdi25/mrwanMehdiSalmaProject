@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Josefin+Sans:ital,wght@0,700;1,600&family=Prompt:wght@700&family=Quicksand:wght@300&family=Rubik:wght@600&family=Spline+Sans:wght@400;500;700&display=swap');
+.salut {
+    font-size: 60px;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree';
+    margin-left: 90px;
+  }
+  
+  .hh {
+    margin-left: 100px;
+    font-size: 15px;
+    flex-wrap: wrap; 
+  }
+  
+  .introtext {
+    font-family: 'Bai Jamjuree';
+  }
+  
+  .opticienPassionne {
+    font-family: 'Bai Jamjuree';
+    font-weight: bold;
+  }
+  
+  .introContent{
+    
+  }
+  
+  
+  .flechScratchRow img {
+    display: flex;
+    width: 170px;
+    transform: rotate(100deg);
+  }
+  
+  .flechScratchRow {
+    margin-left: 250px;
+  }
+.imageAbdo{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin-top:80px;
+    margin-left:230px;
+   position: relative;
+}
+
+  .imageBorderUnder::before{
+    content: '';
+    position: absolute;
+    border: 8px solid black;
+    border-radius: 2%;
+    height: 400px;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 98px;
+  }
+
+  .socialMedia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    margin-top: 200px;
+  }
+  .instagramIcon,
+  .facebookIcon,
+  .WhatsappIcon {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: black; /* Add spacing between the icons if desired */
+  }
