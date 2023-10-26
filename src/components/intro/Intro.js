@@ -39,7 +39,7 @@ class Intro extends Component {
         <section id="intro">
           <div className="d-flex align-items-center justify-content-center m-auto">
             <div className="row ">
-              <Col className="col-sm-10 col-lg-3 m-auto">
+              <Col className="col-sm-10 col-lg-4 m-auto">
                 <div className="introContent">
                   <span className="salut">{this.state.salut}</span>
                   <br />
@@ -59,10 +59,10 @@ class Intro extends Component {
                   </div>
                 </div>
               </Col>
-              <Col className="col-sm-10 col-lg-3">
-                <div className="flechScratchRow d-flex flex-column justify-content-center m-auto align-items-center">
-                  <img src={flech} alt="Curved Arrow" className="mt-5 pt-4 curvedArrow" />
-                  <img src={scratch} alt="Scratch" className="scratch"/>
+              <Col className="col-sm-10 col-lg-1">
+                <div className="flechScratchRow d-flex flex-column justify-content-center m-auto align-items-center ms-5">
+                  <img src={flech} alt="Curved Arrow" className="mt-5 pt-4 ms-5  curvedArrow" />
+                  <img src={scratch} alt="Scratch" className=" mt-4  me-3 scratch"/>
                 </div>
               </Col>
               <Col className="imageBorderUnder d-flex align-items-center justify-content-center m-auto col-sm-10 col-lg-3 ">
