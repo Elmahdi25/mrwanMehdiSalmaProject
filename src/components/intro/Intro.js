@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./intro.css";
 import { Col } from "react-bootstrap";
-import curvedArrow from "./curvedArrow.png";
+import flech from "./flech.png";
 import scratch from "./scratch.png";
 import dw from "./dw.jpeg";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
@@ -61,7 +61,7 @@ class Intro extends Component {
               </Col>
               <Col className="col-sm-10 col-lg-3">
                 <div className="flechScratchRow d-flex flex-column justify-content-center m-auto align-items-center">
-                  <img src={curvedArrow} alt="Curved Arrow" className="mt-5 pt-4 curvedArrow" />
+                  <img src={flech} alt="Curved Arrow" className="mt-5 pt-4 curvedArrow" />
                   <img src={scratch} alt="Scratch" className="scratch"/>
                 </div>
               </Col>

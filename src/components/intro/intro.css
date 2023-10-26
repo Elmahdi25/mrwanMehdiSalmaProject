@@ -3,16 +3,18 @@
     font-size: 60px;
     font-weight: 600;
     font-family: 'Bai Jamjuree';
-    /* margin-left: 90px; */
+    margin-left: 50px;
+    margin-top: 10px;
   }
   
   .hh {
-    margin-left: 30px;
-    font-size: 22px;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 23px;
     flex-wrap: wrap; 
     width: 120%;
   }
-  
+
   .introtext {
     font-family: 'Bai Jamjuree';
   }
@@ -23,13 +25,12 @@
   }
   .salut {
     content: "Salut";
-
   } 
   
   .flechScratchRow img {
     display: flex;
-    width: 170px;
-    transform: rotate(100deg);
+    width: 120px;
+    transform: rotate(10deg);
   }
   
   /* .flechScratchRow {
@@ -155,6 +156,4 @@
       justify-content: center;
       align-items: center;
     }  */
-    
-
   }
