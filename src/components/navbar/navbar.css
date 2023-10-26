@@ -26,6 +26,9 @@
     font-size: 25px;
     margin-left: 130px;
 }
+a{
+    margin: 13px;
+}
 .navbarLinks .nav-link {
     margin-right: 20px;
   }
@@ -35,4 +38,8 @@
 .contactez{
     height: 50px;
     width: 150px;
+}
+.contenu-nav{
+    display: flex;justify-content: center;
+    align-items: center;margin: auto;
 }

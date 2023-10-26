@@ -3,13 +3,14 @@
     font-size: 60px;
     font-weight: 600;
     font-family: 'Bai Jamjuree';
-    margin-left: 90px;
+    /* margin-left: 90px; */
   }
   
   .hh {
-    margin-left: 100px;
-    font-size: 15px;
+    margin-left: 30px;
+    font-size: 22px;
     flex-wrap: wrap; 
+    width: 120%;
   }
   
   .introtext {
@@ -20,11 +21,10 @@
     font-family: 'Bai Jamjuree';
     font-weight: bold;
   }
-  
-  .introContent{
-    
-  }
-  
+  .salut {
+    content: "Salut";
+
+  } 
   
   .flechScratchRow img {
     display: flex;
@@ -32,15 +32,15 @@
     transform: rotate(100deg);
   }
   
-  .flechScratchRow {
-    margin-left: 250px;
-  }
+  /* .flechScratchRow {
+  } */
 .imageAbdo{
     width: 250px;
     height: 400px;
     object-fit: cover;
     margin-top:80px;
-    margin-left:230px;
+    /* margin-left:230px; */
+    margin-right: 1.5rem;
    position: relative;
 }
 
@@ -51,15 +51,13 @@
     border-radius: 2%;
     height: 400px;
     width: 250px;
-    margin-left: 250px;
-    margin-top: 98px;
+    margin-top: 140px;
   }
 
   .socialMedia{
     display: flex;
     flex-direction: column;
-    margin-left: 170px;
-    margin-top: 200px;
+    
   }
   .instagramIcon,
   .facebookIcon,
@@ -67,4 +65,96 @@
     margin-bottom: 30px;
     font-size: 40px;
     color: black; /* Add spacing between the icons if desired */
+  }
+  @media (max-width:720px) {
+    
+    .introContent {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 95%;
+      margin: 10px;
+    } 
+    .row{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .hh{
+      width: 80%;
+    }
+    .salut{
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    .imageBorderUnder{
+      position: relative;
+    }
+    .flechScratchRow {
+      position: absolute;
+      top: 155%; /* Align at the bottom */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%);
+      transform: rotate(-90deg);
+      width: 40px;height:47px;
+      z-index: 1;
+    }
+    /* .curvedArrow{
+      position: absolute;
+      transform: rotate(90deg);
+    } */
+    .flechScratchRow .scratch{
+      display: none;
+    }
+    .bodyNavBar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .Abdeladim-ElOTHMANI{
+      font-size: 20px;
+    }
+    .a{
+      width: 30px;
+      height: 30px;
+    } 
+    .navbar-nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    } 
+
+  }
+  @media (min-width:701px) and (max-width:1000px){
+    .flechScratchRow .scratch{
+      display: none;
+    }
+    .flechScratchRow .curvedArrow{
+      display: none;
+    }
+    .row{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .bodyNavBar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    /* .navbar-nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }  */
+    
+
   }
